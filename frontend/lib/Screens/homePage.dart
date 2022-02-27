@@ -1,3 +1,8 @@
+import 'package:capital_one/Screens/accountsPage.dart';
+import 'package:capital_one/Screens/finance.dart';
+import 'package:capital_one/Screens/insightsPage.dart';
+import 'package:capital_one/Screens/learnPage.dart';
+import 'package:capital_one/group_chats/group_chat_screen.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:fading_edge_scrollview/fading_edge_scrollview.dart';
 import 'package:flutter/cupertino.dart';
@@ -106,7 +111,7 @@ class _HomePageState extends State<HomePage> {
                 child: GestureDetector(
                   onTap: () => Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (_) => HomePage()),
+                    MaterialPageRoute(builder: (_) => GroupChatMessageScreen()),
                   ),
                   child: Row(
                     children: [
@@ -167,7 +172,7 @@ class _HomePageState extends State<HomePage> {
                 GestureDetector(
                   onTap: () => Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (_) => HomePage()),
+                    MaterialPageRoute(builder: (_) => FinancePage()),
                   ),
                   child: Container(
                     
@@ -224,7 +229,7 @@ class _HomePageState extends State<HomePage> {
                 GestureDetector(
                   onTap: () => Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (_) => HomePage()),
+                    MaterialPageRoute(builder: (_) => AccountsPage()),
                   ),
                   child: Container(
                    margin: EdgeInsets.symmetric(horizontal: 10),
@@ -280,7 +285,7 @@ class _HomePageState extends State<HomePage> {
                 GestureDetector(
                   onTap: () => Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (_) => HomePage()),
+                    MaterialPageRoute(builder: (_) => InsightsPage()),
                   ),
                   child: Container(
                     margin: EdgeInsets.symmetric(horizontal: 10),
@@ -336,7 +341,7 @@ class _HomePageState extends State<HomePage> {
                 GestureDetector(
                   onTap: () => Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (_) => HomePage()),
+                    MaterialPageRoute(builder: (_) => LearnPage()),
                   ),
                   child: Container(
                     margin: EdgeInsets.symmetric(horizontal: 10),

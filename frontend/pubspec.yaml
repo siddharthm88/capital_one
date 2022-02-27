@@ -25,6 +25,9 @@ dependencies:
   fading_edge_scrollview: ^2.0.1
   google_fonts:
   carousel_slider: ^4.0.0
+  youtube_api: ^1.0.4
+  url_launcher: ^6.0.20
+  awesome_dialog:
 
 dev_dependencies:
   flutter_test:

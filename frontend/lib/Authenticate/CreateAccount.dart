@@ -37,7 +37,7 @@ class _CreateAccountState extends State<CreateAccount> {
                       Align(
                         alignment: Alignment.topLeft,
                         child: Text(
-                          "ACE",
+                          "Capital One",
                           style: GoogleFonts.poppins(
                             fontSize: 32,
                             fontWeight: FontWeight.w600,

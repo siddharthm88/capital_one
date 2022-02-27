@@ -23,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
       child: Stack(
         children: [
           Image.network(
-            "https://cdn.discordapp.com/attachments/939350598388711455/944915184198221865/Illustration_1background.png",
+            "https://cdn.discordapp.com/attachments/939350598388711455/947466762864181328/Group_2088.png",
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
             fit: BoxFit.cover,
